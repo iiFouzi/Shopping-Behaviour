@@ -62,8 +62,8 @@ Line plots to visualize trends and group behaviors
 
 📁 Repository Structure
 📦 Shopping-Behavior-Analysis
- ┣ 📜 shopping_behavior_analysis.ipynb   # Main analysis notebook
- ┣ 📊 dataset.csv                         # Cleaned dataset
+ ┣ 📜 analysis.ipynb   # Main analysis notebook
+ ┣ 📊 shopping_behaviour_dashboord.csv                         # Cleaned dataset
  ┣ 📄 README.md                           # Project documentation
  ┗ 📈 visuals/                            # Optional folder for saved plots
 
