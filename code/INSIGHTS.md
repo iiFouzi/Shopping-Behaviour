@@ -78,19 +78,19 @@ Mode was selected as it preserves the original distribution best.
 
 ### New Features Created
 
-#### 1. **Loyalty Indicator: `Loyal (gdnp)`**
+#### 1. **Spending Indicator: `Frequent Spender`**
 - **Purpose:** Segment customers by purchase frequency
 - **Grouping:**
-  - **Loyal customers:** Weekly, Fortnightly, Bi-weekly, Unknown_Frequency → "Yes"
-  - **Non-loyal customers:** Annually, Quarterly, Every 3 Months, Monthly → "No"
+  - **Frequent customers:** Weekly, Fortnightly, Bi-weekly, Unknown_Frequency → "Yes"
+  - **Occasional customers:** Annually, Quarterly, Every 3 Months, Monthly → "No"
 - **Business value:** Identifies target customers for loyalty programs or discounts
 
-#### 2. **Spending Level: `High_Spender`**
+#### 2. **Spending Level: `Spending Power`**
 - **Threshold:** Above mean purchase amount
 - **Categories:** "High spender" vs "Low spender"
 - **Use case:** Segment marketing campaigns by customer spending power
 
-#### 3. **Review Sentiment: `Positive_Review`**
+#### 3. **Review Sentiment: `Satisfaction`**
 - **Threshold:** Rating ≥ 4
 - **Categories:** "Positive Review" vs "Negative Review"
 - **Use case:** Identify satisfaction levels and correlate with other variables
@@ -129,7 +129,7 @@ Cleaned Dataset (shop_patterns_cleaned.csv)
 ## Key Takeaways
 
 1. **Data Quality:** Successfully identified and handled ~22-50% missing values in certain columns through thoughtful imputation
-2. **Customer Segmentation:** Created three actionable features for customer segmentation (loyalty, spending, satisfaction)
+2. **Customer Segmentation:** Created three actionable features for customer segmentation (frequency, spending, satisfaction)
 3. **Distribution Insights:** Analyzed distributions across 11+ variables to understand customer demographics and behavior
 4. **Business Ready:** Final cleaned dataset ready for modeling, dashboarding, or deeper analysis
 
